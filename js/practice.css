@@ -1,0 +1,38 @@
+.container{
+    background: #0D1117;
+    width: 250px;
+    border-radius: 8px;
+    color: #c9d1d9;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right:15px;
+    font-family: sans-serif;
+    display: block;
+    margin: 300px auto;
+
+    
+    
+    
+}
+button{
+   color:  #c9d1d9;
+   background: #21262d;
+   border: 1px solid #30363d;
+   border-radius: 5px;
+   padding: 5px 10px;
+   transition:all 0.2s ease;
+   width: 200px;
+}
+button:hover{
+    background: red;
+    color: springgreen;
+    width: 300px;
+}
+button:active{
+    background: teal;
+    color: violet;
+}
+body{
+    background: black;
+}

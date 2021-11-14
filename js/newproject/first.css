@@ -1,0 +1,139 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+  display: flex;  
+  justify-content: space-between;
+  background: #2D3843;
+  padding: 10px 10%;
+  margin-left: -10px;
+
+}
+header a{
+color: white;
+text-decoration: none;
+margin-left: 10px;
+}
+.search{
+    display:flex;
+    padding: 25px 10%;
+    justify-content: space-between;
+}
+.search__bar{
+   display:flex; 
+}
+.search__bar button{
+    background: #315EFB;
+    color:white;
+    padding: 15px 10px;
+    border:none;
+    height: 51px;
+}
+.search__bar input{
+    height: 45px;
+    width: 60vw;
+    border: 2px;
+    border-color: #315EFB;
+    border-style: solid;
+}
+.cards h3{
+    color: #0067CC;
+}
+.cards__item {
+width: 324px;
+
+}
+.cards__discription h3{
+    color: #262626;
+    margin-bottom: 10px;
+   
+}
+.cards__discription p{
+    color:#737373;
+    margin: 0px;
+}
+.cards__ticket{
+    width: 48px;
+    height: 39px;
+    background: #0067CC;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.cards__image .cards__ticket {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.cards__image{
+    position: relative;
+}
+.cards__list{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.cards {
+    padding: 10px 10%;
+}
+.cards__allimage{
+    display: block;
+    width: 324px;
+    height: 162px;
+}
+.slider {
+width: 100vw;
+height: 490px;
+position: relative;
+
+}
+.slide__image {
+    display: block;
+    position: absolute;
+    height: 490px;
+    width: 100%;
+    z-index: -1;
+   
+}
+.slider__slide {
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items:flex-end;
+    height: 490px;
+
+}
+.slide__content{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.slide__title {
+   color: white;
+}
+.select {
+    width: 13px;
+    height: 13px;
+    border: none;
+    border-radius: 50%;
+    z-index: 2;
+    cursor:pointer;
+    margin-left: 7px;
+    margin-right: 7px;
+    opacity: 0.16;
+}
+.select--active {
+    opacity: 1;
+}
+.slider__buttons {
+    position: absolute;
+    left: 45%;
+    bottom: 10px;
+    z-index: 2;
+
+}
